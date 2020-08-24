@@ -2,10 +2,19 @@ package main
 
 import (
 	"fmt"
-	"stream-project.com/jasonseah/leet-code-challenge/dictionary/challenge-1480"
+	"stream-project.com/jasonseah/leet-code-challenge/dictionary/challenge-1476"
 )
 
 func main() {
-	var array = []int{1, 2, 3, 4}
-	fmt.Println(challenge_1480.AdvanceVersion(array))
+	// run challenge 1480
+	// var array = []int{1, 2, 3, 4}
+	// fmt.Println(challenge_1480.AdvanceVersion(array))
+
+	// run challenge 1476
+	var array = [][]int{{2, 8}, {8, 8}, {7, 4}}
+	var challenge = challenge_1476.Constructor(array)
+
+	fmt.Println(challenge.GetValue(1, 0))
+	challenge.UpdateSubrectangle(1, 1, 1, 1, 4)
+	fmt.Println(challenge.GetArray())
 }
