@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"stream-project.com/jasonseah/leet-code-challenge/dictionary/challenge-1512"
+	challenge1470 "stream-project.com/jasonseah/leet-code-challenge/dictionary/challenge-1470"
 )
 
 func main() {
@@ -21,6 +21,10 @@ func main() {
 	//var array = []int{2, 3, 5, 1, 3}
 	//fmt.Println(challenge_1431.KidsWithCandies(array, 3))
 
+	//var array = []int{1, 2, 3, 1, 1, 3}
+	//fmt.Println(challenge_1512.AdvanceNumIdenticalPairs(array))
+
 	var array = []int{1, 2, 3, 1, 1, 3}
-	fmt.Println(challenge_1512.AdvanceNumIdenticalPairs(array))
+	//[112133]
+	fmt.Println(challenge1470.Shuffle(array, 3))
 }
