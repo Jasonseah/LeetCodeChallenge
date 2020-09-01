@@ -21,4 +21,6 @@ func main() {
 	//fmt.Println(challenge1470.Shuffle(array, 3))
 
 	//fmt.Println(challenge_1108.DefangIPaddr("127.0.0.1"))
+
+	//fmt.Println(challenge_771.NumJewelsInStonesAdvance("zA", "aaAAbbbA"))
 }
