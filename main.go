@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	challenge_1528 "stream-project.com/jasonseah/leet-code-challenge/dictionary/challenge-1528"
+)
+
 func main() {
 	// var array = []int{1, 2, 3, 4}
 	// fmt.Println(challenge_1480.AdvanceVersion(array))
@@ -23,4 +28,9 @@ func main() {
 	//fmt.Println(challenge_1108.DefangIPaddr("127.0.0.1"))
 
 	//fmt.Println(challenge_771.NumJewelsInStonesAdvance("zA", "aaAAbbbA"))
+
+	//fmt.Println(challenge_1342.NumberOfSteps(14))
+
+	var array = []int{4, 5, 6, 7, 0, 2, 1, 3}
+	fmt.Println(challenge_1528.RestoreString("codeleet", array))
 }
