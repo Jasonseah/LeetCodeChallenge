@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	challenge_1528 "stream-project.com/jasonseah/leet-code-challenge/dictionary/challenge-1528"
+	challenge_1281 "stream-project.com/jasonseah/leet-code-challenge/dictionary/challenge-1281"
 )
 
 func main() {
@@ -31,6 +31,8 @@ func main() {
 
 	//fmt.Println(challenge_1342.NumberOfSteps(14))
 
-	var array = []int{4, 5, 6, 7, 0, 2, 1, 3}
-	fmt.Println(challenge_1528.RestoreString("codeleet", array))
+	//var array = []int{4, 5, 6, 7, 0, 2, 1, 3}
+	//fmt.Println(challenge_1528.RestoreString("codeleet", array))
+
+	fmt.Println(challenge_1281.SubtractProductAndSum(234))
 }
