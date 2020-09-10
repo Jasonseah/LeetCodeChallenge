@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	challenge_1313 "stream-project.com/jasonseah/leet-code-challenge/dictionary/challenge-1313"
+	challenge_1365 "stream-project.com/jasonseah/leet-code-challenge/dictionary/challenge-1365"
 )
 
 func main() {
@@ -36,6 +36,9 @@ func main() {
 
 	//fmt.Println(challenge_1281.SubtractProductAndSum(234))
 
-	var array = []int{1, 2, 3, 4}
-	fmt.Println(challenge_1313.DecompressRLElist(array))
+	//var array = []int{1, 2, 3, 4}
+	//fmt.Println(challenge_1313.DecompressRLElist(array))
+
+	var array = []int{8, 1, 2, 2, 3}
+	fmt.Println(challenge_1365.SmallerNumbersThanCurrent(array))
 }
