@@ -77,7 +77,7 @@ func (t *TreeNode) Insert(value int) error {
 /**
  *
  */
-func (t *TreeNode) Flatten() []int {
-
-
-}
+//func (t *TreeNode) Flatten() []int {
+//
+//
+//}

@@ -6,8 +6,6 @@ import (
 	tree_node "stream-project.com/jasonseah/leet-code-challenge/dictionary/tree-node"
 )
 
-type TreeNode custom_interface.TreeNode
-
 func main() {
 	// var array = []int{1, 2, 3, 4}
 	// fmt.Println(challenge_1480.AdvanceVersion(array))
