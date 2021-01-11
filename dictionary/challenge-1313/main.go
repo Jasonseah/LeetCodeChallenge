@@ -30,7 +30,7 @@ func decompressRLElist(nums []int) []int {
 	resultLen := 0
 	//O(n/2)
 	for i, count := range nums {
-		if i % 2 != 0 {
+		if i%2 != 0 {
 			continue
 		}
 		resultLen = resultLen + count
@@ -42,7 +42,7 @@ func decompressRLElist(nums []int) []int {
 	pointer := 0
 	// O(n/2)
 	for i, count := range nums {
-		if i % 2 != 0 {
+		if i%2 != 0 {
 			continue
 		}
 		num := nums[i+1]
