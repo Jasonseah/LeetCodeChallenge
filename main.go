@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	challenge_617 "stream-project.com/jasonseah/leet-code-challenge/dictionary/challenge-617"
+	challenge_104 "stream-project.com/jasonseah/leet-code-challenge/dictionary/challenge-104"
 	tree_node "stream-project.com/jasonseah/leet-code-challenge/dictionary/tree-node"
 )
 
@@ -43,9 +43,16 @@ func main() {
 	//var array = []int{8, 1, 2, 2, 3}
 	//fmt.Println(challenge_1365.SmallerNumbersThanCurrent(array))
 
-	t1 := tree_node.ConstructNode([]int{1, 2, 3, 4, 5})
-	t2 := tree_node.ConstructNode([]int{8, 3, 0, 1, 2, 3})
+	//t1 := tree_node.ConstructNode([]int{1, 2, 3, 4, 5})
+	//t2 := tree_node.ConstructNode([]int{8, 3, 0, 1, 2, 3})
+	//
+	//challenge_617.MergeTree(&t1, &t2)
+	//fmt.Println(t1.Flatten())
 
-	challenge_617.MergeTree(&t1, &t2)
-	fmt.Println(t1.Flatten())
+	//3,9,20,null,null,15,7
+	root := tree_node.ConstructNode([]int{3, 9, 20, 0, 0, 15, 7})
+	//t2 := tree_node.ConstructNode([]int{8, 3, 0, 1, 2, 3})
+	//
+	fmt.Println(challenge_104.MaxDepth(&root))
+	//fmt.Println(t1.Flatten())
 }

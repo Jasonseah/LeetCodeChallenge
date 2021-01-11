@@ -1,9 +1,5 @@
 package tree_node
 
-import (
-	"fmt"
-)
-
 /**
  * for illustrate purpose this will be on top of the function usually
  * should be outside from this class
@@ -22,8 +18,6 @@ func ConstructNode(nodes []int) TreeNode {
 	t.Val = nodes[0]
 
 	for i := 1; i < len(nodes); i++ {
-		fmt.Println(nodes)
-		fmt.Println(nodes[i])
 		t.Insert(nodes[i])
 	}
 
