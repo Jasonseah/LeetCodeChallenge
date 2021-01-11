@@ -2,8 +2,11 @@ package main
 
 import (
 	"fmt"
-	challenge_1365 "stream-project.com/jasonseah/leet-code-challenge/dictionary/challenge-1365"
+	challenge_617 "stream-project.com/jasonseah/leet-code-challenge/dictionary/challenge-617"
+	tree_node "stream-project.com/jasonseah/leet-code-challenge/dictionary/tree-node"
 )
+
+type TreeNode custom_interface.TreeNode
 
 func main() {
 	// var array = []int{1, 2, 3, 4}
@@ -39,6 +42,12 @@ func main() {
 	//var array = []int{1, 2, 3, 4}
 	//fmt.Println(challenge_1313.DecompressRLElist(array))
 
-	var array = []int{8, 1, 2, 2, 3}
-	fmt.Println(challenge_1365.SmallerNumbersThanCurrent(array))
+	//var array = []int{8, 1, 2, 2, 3}
+	//fmt.Println(challenge_1365.SmallerNumbersThanCurrent(array))
+
+	t1 := tree_node.ConstructNode([]int{1, 2, 3, 4, 5})
+	t2 := tree_node.ConstructNode([]int{8, 3, 0, 1, 2, 3})
+
+	challenge_617.MergeTree(&t1, &t2)
+	fmt.Println(t1.Flatten())
 }
