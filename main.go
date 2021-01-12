@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	challenge_226 "stream-project.com/jasonseah/leet-code-challenge/dictionary/challenge-226"
-	tree_node "stream-project.com/jasonseah/leet-code-challenge/dictionary/tree-node"
+	challenge_206 "stream-project.com/jasonseah/leet-code-challenge/dictionary/challenge-206"
+	list_node "stream-project.com/jasonseah/leet-code-challenge/dictionary/list-node"
 )
 
 func main() {
@@ -55,6 +55,10 @@ func main() {
 	//root := tree_node.ConstructNode([]int{4, 2, 7, 1, 3, 6, 9})
 	//fmt.Println(challenge_104.MaxDepth(&root))
 
-	root := tree_node.ConstructNode([]int{4, 2, 7, 1, 3, 6, 9})
-	fmt.Println(challenge_226.InvertTree(&root))
+	//root := tree_node.ConstructNode([]int{4, 2, 7, 1, 3, 6, 9})
+	//fmt.Println(challenge_226.InvertTree(&root))
+
+	root := list_node.ConstructNode([]int{1, 2, 3, 4, 5})
+
+	fmt.Println(challenge_206.ReverseList(&root))
 }
